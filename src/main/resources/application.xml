@@ -18,17 +18,36 @@
 		<property name="password" value ="" />
 	</bean>
 
+
 	<!-- Templates -->
-	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
-		<constructor-arg ref="dataSource"/>
+<!--	<bean id="jdbcTemplate"
+		  class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>-->
+
+	<bean id="hibernateTemplate"
+		  class="org.springframework.orm.hibernate5.HibernateTemplate"
+		  autowire="byType"/>
+
+	<bean id="sessionFactory"
+		  class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="packagesToScan">
+			<list>
+				<value>com.yrgo.domain</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">create</prop>
+			</props>
+		</property>
 	</bean>
 
+
 	<!-- Dao beans -->
-
-
 	<!-- Service beans -->
-
-
 	<!-- Advice -->
 
 
@@ -40,12 +59,12 @@
 	</aop:config>
 
 	<!-- Transaction Manager -->
-	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="dataSource"/>
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager" autowire="byType" >
 	</bean>
 
 	<!-- Transaction Configuration -->
-	<tx:annotation-driven  transaction-manager="transactionManager"/>
+	<tx:annotation-driven />
 
 	<context:component-scan base-package="com.yrgo" />
+	<aop:aspectj-autoproxy/>
 </beans>

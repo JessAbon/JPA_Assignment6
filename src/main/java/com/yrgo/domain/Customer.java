@@ -50,7 +50,7 @@ public class Customer {
                 .append(": CompanyName: ").append(this.companyName)
                 .append(", Email: ").append(this.email)
                 .append(", Telephone: ").append(this.telephone)
-				.append(", Notes: ||").append(String.join(" || ", notes)).append(" || ")
+				.append(", Notes: || ").append(String.join(" || ", notes)).append(" || ")
 				.append("\n Calls:");
 
 		for (Call call : calls) {

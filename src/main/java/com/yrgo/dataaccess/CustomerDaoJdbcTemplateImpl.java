@@ -13,7 +13,7 @@ import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
-@Repository
+
 public class CustomerDaoJdbcTemplateImpl implements  CustomerDao {
 
    private JdbcTemplate template;
@@ -26,7 +26,7 @@ public class CustomerDaoJdbcTemplateImpl implements  CustomerDao {
     private static final String GET_ALL_CALLS_SQL = "select * from TBL_CALL";
     private static final String SELECT_CUSTOMER_WHERE_ID = "SELECT * FROM CUSTOMER WHERE CUSTOMERID=?";
 
-    @Autowired
+
     public CustomerDaoJdbcTemplateImpl(JdbcTemplate template) {
         this.template = template;
     }
