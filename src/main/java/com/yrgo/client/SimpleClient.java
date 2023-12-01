@@ -16,7 +16,7 @@ import com.yrgo.services.diary.DiaryManagementService;
 public class SimpleClient {
 
     public static void main(String[] args) throws RecordNotFoundException, CustomerNotFoundException {
-        ClassPathXmlApplicationContext container = new ClassPathXmlApplicationContext("application.xml");
+        ClassPathXmlApplicationContext container = new ClassPathXmlApplicationContext("production-application.xml");
 
         try {
             CustomerManagementService customerService = container.getBean(CustomerManagementService.class);

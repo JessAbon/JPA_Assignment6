@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2e85ae5-b917-4d3e-b364-dd20657dcf1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yrgo/dataaccess/ActionDaoJPAImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yrgo/dataaccess/CustomerDaoJPAImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/percistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.dat.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.dat.script" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrgo/dataaccess/ActionDaoJdbcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrgo/dataaccess/ActionDaoJdbcImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrgo/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrgo/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yrgo/dataaccess/ActionDaoJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yrgo/dataaccess/ActionDaoJdbcImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yrgo/dataaccess/CustomerDaoJdbcTemplateImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +74,10 @@
       <workItem from="1700920664723" duration="4097000" />
       <workItem from="1700927872634" duration="9848000" />
       <workItem from="1700942947633" duration="5253000" />
-      <workItem from="1701100158520" duration="457000" />
+      <workItem from="1701100158520" duration="882000" />
+      <workItem from="1701101634525" duration="16000" />
+      <workItem from="1701101743322" duration="89000" />
+      <workItem from="1701163738647" duration="222000" />
     </task>
     <servers />
   </component>
